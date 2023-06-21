@@ -1,0 +1,81 @@
+
+
+body{
+background-image:  linear-gradient(0deg, rgba(0,0,0.8), rgba(0,0,0,0.8)), url(Imagenes/Fondo-de-pantalla-Gears-of-war-3-1.jpg);;
+font-family: 'Poppins', sans-serif;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+
+
+}
+.titulo{
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 18%;
+    color: white;
+}
+
+
+.parrafo{
+    padding: 15px;
+    margin: 3.3%;
+    color: white;
+    text-align: center;
+}
+
+.carousel{
+    width: 300px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel ul{
+    display: flex;
+    padding:0;
+    width: 500px;
+    animation: cambio 20s infinite alternate;
+   
+
+}
+
+.carousel li{
+    list-style: none;
+    width: 100%;
+}
+
+.carousel img{
+    width: 300px;
+}
+
+@keyframes cambio{
+
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+
+
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    75%{margin-left: -300%}
+    100%{margin-left:-300%}
+
+
+}
+
+
+.nav-item li a:hover{
+    background: gray;
+}
+
+.nav-item:hover{
+    background: gray;
+
+}
+
+
